@@ -1,0 +1,324 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev "1"
+Comp ""
+Comment1 "Designed for AISLER 2-Layer Service"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SamacSys_Parts:SCD30 IC1
+U 1 1 607F2461
+P 6900 3650
+F 0 "IC1" H 7828 3396 50  0000 L CNN
+F 1 "SCD30" H 7828 3305 50  0000 L CNN
+F 2 "SamacSys_Parts:SCD30" H 7850 3750 50  0001 L CNN
+F 3 "" H 7850 3650 50  0001 L CNN
+F 4 "SENSIRION - SCD30 - GAS SENSOR, CO2, 0.075A/5.5V, 40000PPM" H 7850 3550 50  0001 L CNN "Description"
+F 5 "7" H 7850 3450 50  0001 L CNN "Height"
+F 6 "403-SCD30" H 7850 3350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Sensirion/SCD30?qs=rrS6PyfT74fdywu4FxpYjQ%3D%3D" H 7850 3250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Sensirion" H 7850 3150 50  0001 L CNN "Manufacturer_Name"
+F 9 "SCD30" H 7850 3050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:HDSP-4832_2 BAR1
+U 1 1 607F303F
+P 6750 2700
+F 0 "BAR1" H 6750 3367 50  0000 C CNN
+F 1 "HDSP-4832_2" H 6750 3276 50  0000 C CNN
+F 2 "Display:HDSP-4832" H 6750 1900 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 4750 2900 50  0001 C CNN
+	1    6750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 607F567F
+P 6900 4150
+F 0 "#PWR0101" H 6900 3900 50  0001 C CNN
+F 1 "GND" V 6905 4022 50  0000 R CNN
+F 2 "" H 6900 4150 50  0001 C CNN
+F 3 "" H 6900 4150 50  0001 C CNN
+	1    6900 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 607F5DBD
+P 6900 4250
+F 0 "#PWR0102" H 6900 4100 50  0001 C CNN
+F 1 "+3.3V" V 6915 4378 50  0000 L CNN
+F 2 "" H 6900 4250 50  0001 C CNN
+F 3 "" H 6900 4250 50  0001 C CNN
+	1    6900 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 607F89EF
+P 7250 3300
+F 0 "#PWR0103" H 7250 3050 50  0001 C CNN
+F 1 "GND" H 7255 3127 50  0000 C CNN
+F 2 "" H 7250 3300 50  0001 C CNN
+F 3 "" H 7250 3300 50  0001 C CNN
+	1    7250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 607F961E
+P 7100 2300
+F 0 "R1" V 7000 2450 50  0000 C CNN
+F 1 "100R" V 7100 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 2300 50  0001 C CNN
+F 3 "~" H 7100 2300 50  0001 C CNN
+	1    7100 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 607FD3AB
+P 7100 2400
+F 0 "R2" V 7000 2550 50  0000 C CNN
+F 1 "100R" V 7100 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 2400 50  0001 C CNN
+F 3 "~" H 7100 2400 50  0001 C CNN
+	1    7100 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 607FD66F
+P 7100 2500
+F 0 "R3" V 7000 2650 50  0000 C CNN
+F 1 "100R" V 7100 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 2500 50  0001 C CNN
+F 3 "~" H 7100 2500 50  0001 C CNN
+	1    7100 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 607FD839
+P 7100 2600
+F 0 "R4" V 7000 2750 50  0000 C CNN
+F 1 "100R" V 7100 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 2600 50  0001 C CNN
+F 3 "~" H 7100 2600 50  0001 C CNN
+	1    7100 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 607FDE0B
+P 7100 2700
+F 0 "R5" V 7000 2850 50  0000 C CNN
+F 1 "100R" V 7100 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 2700 50  0001 C CNN
+F 3 "~" H 7100 2700 50  0001 C CNN
+	1    7100 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 607FDFED
+P 7100 2800
+F 0 "R6" V 7000 2950 50  0000 C CNN
+F 1 "100R" V 7100 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 2800 50  0001 C CNN
+F 3 "~" H 7100 2800 50  0001 C CNN
+	1    7100 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 607FE1AD
+P 7100 2900
+F 0 "R7" V 7000 3050 50  0000 C CNN
+F 1 "100R" V 7100 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 2900 50  0001 C CNN
+F 3 "~" H 7100 2900 50  0001 C CNN
+	1    7100 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 607FE3B6
+P 7100 3000
+F 0 "R8" V 7000 3150 50  0000 C CNN
+F 1 "100R" V 7100 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 3000 50  0001 C CNN
+F 3 "~" H 7100 3000 50  0001 C CNN
+	1    7100 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 607FE5AB
+P 7100 3100
+F 0 "R9" V 7000 3250 50  0000 C CNN
+F 1 "100R" V 7100 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 3100 50  0001 C CNN
+F 3 "~" H 7100 3100 50  0001 C CNN
+	1    7100 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 607FE77A
+P 7100 3200
+F 0 "R10" V 7000 3350 50  0000 C CNN
+F 1 "100R" V 7100 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 3200 50  0001 C CNN
+F 3 "~" H 7100 3200 50  0001 C CNN
+	1    7100 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 3200 7250 3100
+Connection ~ 7250 2400
+Wire Wire Line
+	7250 2400 7250 2300
+Connection ~ 7250 2500
+Wire Wire Line
+	7250 2500 7250 2400
+Connection ~ 7250 2600
+Wire Wire Line
+	7250 2600 7250 2500
+Connection ~ 7250 2700
+Wire Wire Line
+	7250 2700 7250 2600
+Connection ~ 7250 2800
+Wire Wire Line
+	7250 2800 7250 2700
+Connection ~ 7250 2900
+Wire Wire Line
+	7250 2900 7250 2800
+Connection ~ 7250 3000
+Wire Wire Line
+	7250 3000 7250 2900
+Connection ~ 7250 3100
+Wire Wire Line
+	7250 3100 7250 3000
+Wire Wire Line
+	7250 3200 7250 3300
+Connection ~ 7250 3200
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 6080D565
+P 4650 2350
+F 0 "#PWR0104" H 4650 2200 50  0001 C CNN
+F 1 "+3.3V" V 4665 2478 50  0000 L CNN
+F 2 "" H 4650 2350 50  0001 C CNN
+F 3 "" H 4650 2350 50  0001 C CNN
+	1    4650 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 6080DD7F
+P 4650 5150
+F 0 "#PWR0105" H 4650 4900 50  0001 C CNN
+F 1 "GND" H 4655 4977 50  0000 C CNN
+F 2 "" H 4650 5150 50  0001 C CNN
+F 3 "" H 4650 5150 50  0001 C CNN
+	1    4650 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_devkit_v1_doit:ESP32_DevKit_V1_DOIT U2
+U 1 1 6080FE25
+P 4650 3750
+F 0 "U2" H 4650 5331 50  0000 C CNN
+F 1 "ESP32_DevKit_V1_DOIT" H 4650 5240 50  0000 C CNN
+F 2 "esp32_devkit_v1_doit:esp32_devkit_v1_doit" H 4200 5100 50  0001 C CNN
+F 3 "https://aliexpress.com/item/32864722159.html" H 4200 5100 50  0001 C CNN
+	1    4650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 60815B00
+P 4550 5150
+F 0 "#PWR0106" H 4550 4900 50  0001 C CNN
+F 1 "GND" H 4555 4977 50  0000 C CNN
+F 2 "" H 4550 5150 50  0001 C CNN
+F 3 "" H 4550 5150 50  0001 C CNN
+	1    4550 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4050 6900 4050
+Wire Wire Line
+	5250 3950 6900 3950
+Wire Wire Line
+	5250 4150 6400 4150
+Wire Wire Line
+	6400 4150 6400 3200
+Wire Wire Line
+	6400 3200 6550 3200
+Wire Wire Line
+	6550 3100 6350 3100
+Wire Wire Line
+	6350 3100 6350 4550
+Wire Wire Line
+	6350 4550 5250 4550
+Wire Wire Line
+	6550 3000 6300 3000
+Wire Wire Line
+	6300 3000 6300 4650
+Wire Wire Line
+	6300 4650 5250 4650
+Wire Wire Line
+	6550 2900 6250 2900
+Wire Wire Line
+	6250 2900 6250 4250
+Wire Wire Line
+	6250 4250 5250 4250
+Wire Wire Line
+	6550 2800 6200 2800
+Wire Wire Line
+	6200 2800 6200 4350
+Wire Wire Line
+	6200 4350 5250 4350
+Wire Wire Line
+	6550 2700 6150 2700
+Wire Wire Line
+	6150 2700 6150 4450
+Wire Wire Line
+	6150 4450 5250 4450
+Wire Wire Line
+	6550 2600 6100 2600
+Wire Wire Line
+	6100 2600 6100 3350
+Wire Wire Line
+	6100 3350 5250 3350
+Wire Wire Line
+	6550 2500 6050 2500
+Wire Wire Line
+	6050 2500 6050 3150
+Wire Wire Line
+	6050 3150 5250 3150
+Wire Wire Line
+	6550 2400 6000 2400
+Wire Wire Line
+	6000 2400 6000 3250
+Wire Wire Line
+	6000 3250 5250 3250
+Wire Wire Line
+	6550 2300 5950 2300
+Wire Wire Line
+	5950 2300 5950 3450
+Wire Wire Line
+	5950 3450 5250 3450
+$EndSCHEMATC
